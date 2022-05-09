@@ -7,7 +7,6 @@ body.insertAdjacentHTML('beforeend', '<div class="keyboard"></div>');
 const keyboard = body.querySelector('.keyboard');
 const inputValue = body.querySelector('#inputValue');
 
-
 document.addEventListener('click', makeEvent)
 function makeEvent() {
     if (event.target.dataset.type && event.target.innerHTML.length < 2) {
