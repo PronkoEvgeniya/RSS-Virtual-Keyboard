@@ -1,5 +1,5 @@
 const allkeys = {
-    backquotes: {
+    "backquotes": {
         en: {
             toLow: '`',
             toUp: '~',
@@ -11,7 +11,7 @@ const allkeys = {
             toCap: 'Ё',
         }
     },
-    1: {
+    "one": {
         en: {
             toLow: '1',
             toUp: '!',
@@ -23,7 +23,7 @@ const allkeys = {
             toCap: '1',
         }
     },
-    2: {
+    "two": {
         en: {
             toLow: '2',
             toUp: '@',
@@ -35,7 +35,7 @@ const allkeys = {
             toCap: '2',
         }
     },
-    3: {
+    "three": {
         en: {
             toLow: '3',
             toUp: '#',
@@ -47,7 +47,7 @@ const allkeys = {
             toCap: '3',
         }
     },
-    4: {
+    "four": {
         en: {
             toLow: '4',
             toUp: '$',
@@ -59,7 +59,7 @@ const allkeys = {
             toCap: '4',
         }
     },
-    5: {
+    "five": {
         en: {
             toLow: '5',
             toUp: '%',
@@ -71,7 +71,7 @@ const allkeys = {
             toCap: '5',
         }
     },
-    6: {
+    "six": {
         en: {
             toLow: '6',
             toUp: '^',
@@ -83,7 +83,7 @@ const allkeys = {
             toCap: '6',
         }
     },
-    7: {
+    "seven": {
         en: {
             toLow: '7',
             toUp: '&',
@@ -95,7 +95,7 @@ const allkeys = {
             toCap: '7',
         }
     },
-    8: {
+    "eight": {
         en: {
             toLow: '8',
             toUp: '*',
@@ -107,7 +107,7 @@ const allkeys = {
             toCap: '8',
         }
     },
-    9: {
+    "nine": {
         en: {
             toLow: '9',
             toUp: '(',
@@ -119,7 +119,7 @@ const allkeys = {
             toCap: '9',
         }
     },
-    0: {
+    "zero": {
         en: {
             toLow: '0',
             toUp: ')',
@@ -131,7 +131,7 @@ const allkeys = {
             toCap: '0',
         }
     },
-    dash: {
+    "dash": {
         en: {
             toLow: '-',
             toUp: '_',
@@ -143,7 +143,7 @@ const allkeys = {
             toCap: '-',
         }
     },
-    plus: {
+    "plus": {
         en: {
             toLow: '=',
             toUp: '+',
@@ -155,7 +155,31 @@ const allkeys = {
             toCap: '=',
         }
     },
-    q: {
+    "backspace": {
+        en: {
+            toLow: '&larr;',
+            toUp: '&larr;',
+            toCap: '&larr;',
+        },
+        ru: {
+            toLow: '&larr;',
+            toUp: '&larr;',
+            toCap: '&larr;',
+        }
+    },
+    "tab": {
+        en: {
+            toLow: 'tab',
+            toUp: 'tab',
+            toCap: 'tab',
+        },
+        ru: {
+            toLow: 'tab',
+            toUp: 'tab',
+            toCap: 'tab',
+        }
+    },
+    "q": {
         en: {
             toLow: 'q',
             toUp: '',
@@ -167,7 +191,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    w: {
+    "w": {
         en: {
             toLow: 'w',
             toUp: '',
@@ -179,7 +203,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    e: {
+    'e': {
         en: {
             toLow: 'e',
             toUp: '',
@@ -191,7 +215,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    r: {
+    "r": {
         en: {
             toLow: 'r',
             toUp: '',
@@ -203,7 +227,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    t: {
+    "t": {
         en: {
             toLow: 't',
             toUp: '',
@@ -215,7 +239,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    y: {
+    "y": {
         en: {
             toLow: 'y',
             toUp: '',
@@ -227,7 +251,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    u: {
+    "u": {
         en: {
             toLow: 'u',
             toUp: '',
@@ -239,7 +263,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    i: {
+    "i": {
         en: {
             toLow: 'i',
             toUp: '',
@@ -251,7 +275,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    o: {
+    "o": {
         en: {
             toLow: 'o',
             toUp: '',
@@ -263,7 +287,7 @@ const allkeys = {
             toCap: '',
         }
     },
-    p: {
+    "p": {
         en: {
             toLow: 'p',
             toUp: '',
@@ -275,7 +299,7 @@ const allkeys = {
             toCap: 'Ё',
         }
     },
-    leftbrecket: {
+    "leftbrecket": {
         en: {
             toLow: '[',
             toUp: '',
@@ -287,7 +311,7 @@ const allkeys = {
             toCap: 'Ё',
         }
     },
-    rightbracket: {
+    "rightbracket": {
         en: {
             toLow: ']',
             toUp: '',
@@ -299,11 +323,11 @@ const allkeys = {
             toCap: 'Ё',
         }
     },
-    line: {
+    "line": {
         en: {
             toLow: '\\',
-            toUp: '',
-            toCap: '',
+            toUp: '|',
+            toCap: '\\',
         },
         ru: {
             toLow: 'ё',
@@ -311,7 +335,19 @@ const allkeys = {
             toCap: 'Ё',
         }
     },
-    a: {
+    "caps": {
+        en: {
+            toLow: 'caps lock',
+            toUp: 'caps lock',
+            toCap: 'caps lock',
+        },
+        ru: {
+            toLow: 'caps lock',
+            toUp: 'caps lock',
+            toCap: 'caps lock',
+        }
+    },
+    "a": {
         en: {
             toLow: 'a',
             toUp: 'A',
@@ -323,7 +359,7 @@ const allkeys = {
             toCap: 'Ф',
         }
     },
-    s: {
+    "s": {
         en: {
             toLow: 's',
             toUp: 'S',
@@ -335,7 +371,7 @@ const allkeys = {
             toCap: 'Ы',
         }
     },
-    d: {
+    "d": {
         en: {
             toLow: 'd',
             toUp: 'D',
@@ -347,7 +383,7 @@ const allkeys = {
             toCap: 'В',
         }
     },
-    f: {
+    "f": {
         en: {
             toLow: 'f',
             toUp: 'F',
@@ -359,7 +395,7 @@ const allkeys = {
             toCap: 'А',
         }
     },
-    g: {
+    "g": {
         en: {
             toLow: 'g',
             toUp: 'G',
@@ -371,7 +407,7 @@ const allkeys = {
             toCap: 'П',
         }
     },
-    h: {
+    "h": {
         en: {
             toLow: 'h',
             toUp: 'H',
@@ -383,7 +419,7 @@ const allkeys = {
             toCap: 'Р',
         }
     },
-    j: {
+    "j": {
         en: {
             toLow: 'j',
             toUp: 'J',
@@ -395,7 +431,7 @@ const allkeys = {
             toCap: 'О',
         }
     },
-    k: {
+    "k": {
         en: {
             toLow: 'k',
             toUp: 'K',
@@ -407,7 +443,7 @@ const allkeys = {
             toCap: 'Л',
         }
     },
-    l: {
+    "l": {
         en: {
             toLow: 'l',
             toUp: 'L',
@@ -419,7 +455,7 @@ const allkeys = {
             toCap: 'Д',
         }
     },
-    colon: {
+    "colon": {
         en: {
             toLow: ';',
             toUp: ':',
@@ -431,7 +467,7 @@ const allkeys = {
             toCap: 'Ж',
         }
     },
-    quote: {
+    "quote": {
         en: {
             toLow: "'",
             toUp: '"',
@@ -443,7 +479,31 @@ const allkeys = {
             toCap: 'Э',
         }
     },
-    z: {
+    "enter": {
+        en: {
+            toLow: "enter",
+            toUp: 'enter',
+            toCap: "enter",
+        },
+        ru: {
+            toLow: 'enter',
+            toUp: 'enter',
+            toCap: 'enter',
+        }
+    },
+    "shift": {
+        en: {
+            toLow: "shift",
+            toUp: 'shift',
+            toCap: "shift",
+        },
+        ru: {
+            toLow: 'shift',
+            toUp: 'shift',
+            toCap: 'shift',
+        }
+    },
+    "z": {
         en: {
             toLow: 'z',
             toUp: 'Z',
@@ -455,7 +515,7 @@ const allkeys = {
             toCap: 'Я',
         }
     },
-    x: {
+    "x": {
         en: {
             toLow: 'x',
             toUp: 'X',
@@ -467,7 +527,7 @@ const allkeys = {
             toCap: 'Ч',
         }
     },
-    c: {
+    "c": {
         en: {
             toLow: 'c',
             toUp: 'C',
@@ -479,7 +539,7 @@ const allkeys = {
             toCap: 'С',
         }
     },
-    v: {
+    "v": {
         en: {
             toLow: 'v',
             toUp: 'V',
@@ -491,7 +551,7 @@ const allkeys = {
             toCap: 'М',
         }
     },
-    b: {
+    "b": {
         en: {
             toLow: 'b',
             toUp: 'B',
@@ -503,7 +563,7 @@ const allkeys = {
             toCap: 'И',
         }
     },
-    n: {
+    "n": {
         en: {
             toLow: 'n',
             toUp: 'N',
@@ -515,7 +575,7 @@ const allkeys = {
             toCap: 'Т',
         }
     },
-    m: {
+    "m": {
         en: {
             toLow: 'm',
             toUp: 'M',
@@ -527,7 +587,7 @@ const allkeys = {
             toCap: 'Ь',
         }
     },
-    comma: {
+    "comma": {
         en: {
             toLow: ',',
             toUp: '<',
@@ -539,7 +599,7 @@ const allkeys = {
             toCap: 'Б',
         }
     },
-    dot: {
+    "dot": {
         en: {
             toLow: '.',
             toUp: '>',
@@ -551,7 +611,7 @@ const allkeys = {
             toCap: 'Ю',
         }
     },
-    question: {
+   "question": {
         en: {
             toLow: '/',
             toUp: '?',
@@ -561,6 +621,138 @@ const allkeys = {
             toLow: '.',
             toUp: ',',
             toCap: '.',
+        }
+    },
+   "shift2": {
+        en: {
+            toLow: 'shift',
+            toUp: 'shift',
+            toCap: 'shift',
+        },
+        ru: {
+            toLow: 'shift',
+            toUp: 'shift',
+            toCap: 'shift',
+        }
+    },
+   "ctrl": {
+        en: {
+            toLow: 'ctrl',
+            toUp: 'ctrl',
+            toCap: 'ctrl',
+        },
+        ru: {
+            toLow: 'ctrl',
+            toUp: 'ctrl',
+            toCap: 'ctrl',
+        }
+    },
+   "win": {
+        en: {
+            toLow: 'win',
+            toUp: 'win',
+            toCap: 'win',
+        },
+        ru: {
+            toLow: 'win',
+            toUp: 'win',
+            toCap: 'win',
+        }
+    },
+   "alt": {
+        en: {
+            toLow: 'alt',
+            toUp: 'alt',
+            toCap: 'alt',
+        },
+        ru: {
+            toLow: 'alt',
+            toUp: 'alt',
+            toCap: 'alt',
+        }
+    },
+   "space": {
+        en: {
+            toLow: '',
+            toUp: '',
+            toCap: '',
+        },
+        ru: {
+            toLow: '',
+            toUp: '',
+            toCap: '',
+        }
+    },
+   "alt2": {
+        en: {
+            toLow: 'alt',
+            toUp: 'alt',
+            toCap: 'alt',
+        },
+        ru: {
+            toLow: 'alt',
+            toUp: 'alt',
+            toCap: 'alt',
+        }
+    },
+   "ctrl2": {
+        en: {
+            toLow: 'ctrl',
+            toUp: 'ctrl',
+            toCap: 'ctrl',
+        },
+        ru: {
+            toLow: 'ctrl',
+            toUp: 'ctrl',
+            toCap: 'ctrl',
+        }
+    },
+   "left": {
+        en: {
+            toLow: '&larr;',
+            toUp: '&larr;',
+            toCap: '&larr;',
+        },
+        ru: {
+            toLow: '&larr;',
+            toUp: '&larr;',
+            toCap: '&larr;',
+        }
+    },
+   "up": {
+        en: {
+            toLow: '&uarr;',
+            toUp: '&uarr;',
+            toCap: '&uarr;',
+        },
+        ru: {
+            toLow: '&uarr;',
+            toUp: '&uarr;',
+            toCap: '&uarr;',
+        }
+    },
+   "down": {
+        en: {
+            toLow: '&darr;',
+            toUp: '&darr;',
+            toCap: '&darr;',
+        },
+        ru: {
+            toLow: '&darr;',
+            toUp: '&darr;',
+            toCap: '&darr;',
+        }
+    },
+   "right": {
+        en: {
+            toLow: '&rarr;',
+            toUp: '&rarr;',
+            toCap: '&rarr;',
+        },
+        ru: {
+            toLow: '&rarr;',
+            toUp: '&rarr;',
+            toCap: '&rarr;',
         }
     },
 }
