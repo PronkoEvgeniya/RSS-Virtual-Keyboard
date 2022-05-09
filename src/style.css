@@ -59,6 +59,8 @@ textarea {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
 }
 
 .keyboard div:hover {
@@ -86,5 +88,11 @@ textarea {
 .keyboard .space {
   width: 40%;
   padding-top: 43px;
+}
+
+.active-key {
+  background-color: #26A682;
+  -webkit-transform: scale(75%, 75%);
+          transform: scale(75%, 75%);
 }
 /*# sourceMappingURL=style.css.map */

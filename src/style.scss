@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto+Flex:opsz@8..144&display=swap');
 
-$comforta: 'Comfortaa', cursive; //400,700
+$comforta: 'Comfortaa', cursive;
 $roboto: 'Roboto Flex', sans-serif;
 $blue: #343D59;
 $green: #26A682;
@@ -57,6 +57,7 @@ textarea {
         font-size: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
+        transition: all .1s linear;
         &:hover {
             background-color: $yellow;
             color: $blue;
@@ -79,4 +80,8 @@ textarea {
         width: 40%;
         padding-top: 43px;
     }
+}
+.active-key {
+    background-color: $green;
+    transform: scale(75%, 75%);
 }
