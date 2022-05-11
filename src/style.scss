@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+$comforta: 'Comfortaa', cursive;
+$roboto: 'Roboto Flex', sans-serif;
+$blue: #343D59;
+$green: #26A682;
+$yellow: #F2EFBD;
+
+html {
+    width: 100vw;
+    height: 100vh;  
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: $blue;
+    font-family: $comforta;
+}
+
+h1 {
+    color: $green;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+}
+textarea {
+    resize: none;
+    font-family: $roboto;
+    background-color: $yellow;
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    font-size: 24px;
+    color: $blue;
+    padding: 5px;
+    ::placeholder {
+        font-family: $roboto;
+        color: #343D59;
+    }
+}
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 3px solid $green;
+    width: 90%;
+    margin: 30px auto 0;
+    padding: 10px;
+    justify-content: center;
+    div {
+        border: 1px solid $green;
+        width: 5.5%;
+        height: 5.5%;
+        text-align: center;
+        color: $yellow;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transition: all .1s linear;
+        &:hover {
+            background-color: $yellow;
+            color: $blue;
+            cursor: pointer;
+        }
+    }
+    .backspace {
+        width: 11%;
+    }
+    .tab, .line {
+        width: 10%;
+    }
+    .caps, .enter {
+        width: 12%;
+    }
+    .shift, .shift2 {
+        width: 15%;
+    }
+    .space {
+        width: 40%;
+        padding-top: 43px;
+    }
+    .arr-right,
+    .arr-down,
+    .arr-up,
+    .arr-left {
+        background-image: url(arrow-icon.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        padding: 31px 0;
+    }
+    .arr-down {
+        transform: rotate(90deg);
+    }
+    .arr-up {
+        transform: rotate(-90deg);
+    }
+    .arr-left {
+        transform: rotate(180deg);
+        
+    }
+    
+}
+.active-key {
+    background-color: $green;
+    transform: scale(75%, 75%);
+}
