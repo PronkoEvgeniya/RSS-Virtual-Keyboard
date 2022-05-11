@@ -1,759 +1,534 @@
 const allkeys = {
-    "backquotes": {
+    "Backquote": {
         en: {
             toLow: '`',
             toUp: '~',
-            toCap: '`',
         },
         ru: {
             toLow: 'ё',
-            toUp: 'Ё',
-            toCap: 'Ё',
         }
     },
-    "one": {
+    "Digit1": {
         en: {
             toLow: '1',
             toUp: '!',
-            toCap: '1',
         },
         ru: {
             toLow: '1',
             toUp: '!',
-            toCap: '1',
-        }
+        },
     },
-    "two": {
+    "Digit2": {
         en: {
             toLow: '2',
             toUp: '@',
-            toCap: '2',
         },
         ru: {
             toLow: '2',
             toUp: '"',
-            toCap: '2',
         }
     },
-    "three": {
+    "Digit3": {
         en: {
             toLow: '3',
             toUp: '#',
-            toCap: '3',
         },
         ru: {
             toLow: '3',
             toUp: '№',
-            toCap: '3',
         }
     },
-    "four": {
+    "Digit4": {
         en: {
             toLow: '4',
             toUp: '$',
-            toCap: '4',
         },
         ru: {
             toLow: '4',
             toUp: ';',
-            toCap: '4',
         }
     },
-    "five": {
+    "Digit5": {
         en: {
             toLow: '5',
             toUp: '%',
-            toCap: '5',
         },
         ru: {
             toLow: '5',
             toUp: '%',
-            toCap: '5',
-        }
+        },
     },
-    "six": {
+    "Digit6": {
         en: {
             toLow: '6',
             toUp: '^',
-            toCap: '6',
         },
         ru: {
             toLow: '6',
             toUp: ':',
-            toCap: '6',
         }
     },
-    "seven": {
+    "Digit7": {
         en: {
             toLow: '7',
             toUp: '&',
-            toCap: '7',
         },
         ru: {
             toLow: '7',
             toUp: '?',
-            toCap: '7',
         }
     },
-    "eight": {
+    "Digit8": {
         en: {
             toLow: '8',
             toUp: '*',
-            toCap: '8',
         },
         ru: {
             toLow: '8',
             toUp: '*',
-            toCap: '8',
-        }
+        },
     },
-    "nine": {
+    "Digit9": {
         en: {
             toLow: '9',
             toUp: '(',
-            toCap: '9',
         },
         ru: {
             toLow: '9',
             toUp: '(',
-            toCap: '9',
-        }
+        },
     },
-    "zero": {
+    "Digit0": {
         en: {
             toLow: '0',
             toUp: ')',
-            toCap: '0',
         },
         ru: {
             toLow: '0',
             toUp: ')',
-            toCap: '0',
-        }
+        },
     },
-    "dash": {
+    "Minus": {
         en: {
             toLow: '-',
             toUp: '_',
-            toCap: '-',
         },
         ru: {
             toLow: '-',
             toUp: '_',
-            toCap: '-',
-        }
+        },
     },
-    "plus": {
+    "Equal": {
         en: {
             toLow: '=',
             toUp: '+',
-            toCap: '=',
         },
         ru: {
             toLow: '=',
             toUp: '+',
-            toCap: '=',
-        }
+        },
     },
-    "backspace": {
+    "Backspace": {
         en: {
             toLow: 'Backspace',
-            toUp: 'Backspace',
-            toCap: 'Backspace',
         },
         ru: {
             toLow: 'Backspace',
-            toUp: 'Backspace',
-            toCap: 'Backspace',
-        }
+        },
     },
-    "tab": {
+    "Tab": {
         en: {
             toLow: 'Tab',
-            toUp: 'Tab',
-            toCap: 'Tab',
         },
         ru: {
             toLow: 'Tab',
-            toUp: 'Tab',
-            toCap: 'Tab',
-        }
+        },
     },
-    "q": {
+    "KeyQ": {
         en: {
-            toLow: 'q',
-            toUp: 'Q',
-            toCap: 'Q',
+            toLow: 'Q',
         },
         ru: {
-            toLow: 'й',
-            toUp: 'Й',
-            toCap: 'Й',
+            toLow: 'Й',
         }
     },
-    "w": {
+    "KeyW": {
         en: {
-            toLow: 'w',
-            toUp: 'W',
-            toCap: 'W',
+            toLow: 'W',
         },
         ru: {
-            toLow: 'ц',
-            toUp: 'Ц',
-            toCap: 'Ц',
+            toLow: 'Ц',
         }
     },
-    'e': {
+    'KeyE': {
         en: {
-            toLow: 'e',
-            toUp: 'E',
-            toCap: 'E',
+            toLow: 'E',
         },
         ru: {
-            toLow: 'у',
-            toUp: 'У',
-            toCap: 'У',
+            toLow: 'У',
         }
     },
-    "r": {
+    "KeyR": {
         en: {
-            toLow: 'r',
-            toUp: 'R',
-            toCap: 'R',
+            toLow: 'R',
         },
         ru: {
-            toLow: 'к',
-            toUp: 'К',
-            toCap: 'К',
+            toLow: 'К',
         }
     },
-    "t": {
+    "KeyT": {
         en: {
-            toLow: 't',
-            toUp: 'T',
-            toCap: 'T',
+            toLow: 'T',
         },
         ru: {
-            toLow: 'е',
-            toUp: 'Е',
-            toCap: 'Е',
+            toLow: 'Е',
         }
     },
-    "y": {
+    "KeyY": {
         en: {
-            toLow: 'y',
-            toUp: 'Y',
-            toCap: 'Y',
+            toLow: 'Y',
         },
         ru: {
-            toLow: 'н',
-            toUp: 'Н',
-            toCap: 'Н',
+            toLow: 'Н',
         }
     },
-    "u": {
+    "KeyU": {
         en: {
-            toLow: 'u',
-            toUp: 'U',
-            toCap: 'U',
+            toLow: 'U',
         },
         ru: {
-            toLow: 'г',
-            toUp: 'Г',
-            toCap: 'Г',
+            toLow: 'Г',
         }
     },
-    "i": {
+    "KeyI": {
         en: {
-            toLow: 'i',
-            toUp: 'I',
-            toCap: 'I',
+            toLow: 'I',
         },
         ru: {
-            toLow: 'ш',
-            toUp: 'Ш',
-            toCap: 'Ш',
+            toLow: 'Ш',
         }
     },
-    "o": {
+    "KeyO": {
         en: {
-            toLow: 'o',
-            toUp: 'O',
-            toCap: 'O',
+            toLow: 'O',
         },
         ru: {
-            toLow: 'щ',
-            toUp: 'Щ',
-            toCap: 'Щ',
+            toLow: 'Щ',
         }
     },
-    "p": {
+    "KeyP": {
         en: {
-            toLow: 'p',
-            toUp: 'P',
-            toCap: 'P',
+            toLow: 'P',
         },
         ru: {
-            toLow: 'з',
-            toUp: 'З',
-            toCap: 'З',
+            toLow: 'З',
         }
     },
-    "leftbrecket": {
+    "BracketLeft": {
         en: {
             toLow: '[',
-            toUp: '{',
-            toCap: '[',
         },
         ru: {
-            toLow: 'х',
-            toUp: 'Х',
-            toCap: 'Х',
+            toLow: 'Х',
         }
     },
-    "rightbracket": {
+    "BracketRight": {
         en: {
             toLow: ']',
-            toUp: '}',
-            toCap: ']',
         },
         ru: {
-            toLow: 'ъ',
-            toUp: 'Ъ',
-            toCap: 'Ъ',
+            toLow: 'Ъ',
         }
     },
-    "line": {
+    "Backslash": {
         en: {
             toLow: '\\',
-            toUp: '|',
-            toCap: '\\',
+            toUp: '/',
         },
         ru: {
             toLow: '\\',
             toUp: '/',
-            toCap: '\\',
-        }
+        },
     },
-    "caps": {
+    "CapsLock": {
         en: {
             toLow: 'CapsLock',
-            toUp: 'CapsLock',
-            toCap: 'CapsLock',
         },
         ru: {
             toLow: 'CapsLock',
-            toUp: 'CapsLock',
-            toCap: 'CapsLock',
         }
     },
-    "a": {
+    "KeyA": {
         en: {
-            toLow: 'a',
-            toUp: 'A',
-            toCap: 'A',
+            toLow: 'A',
         },
         ru: {
-            toLow: 'ф',
-            toUp: 'Ф',
-            toCap: 'Ф',
+            toLow: 'Ф',
         }
     },
-    "s": {
+    "KeyS": {
         en: {
-            toLow: 's',
-            toUp: 'S',
-            toCap: 'S',
+            toLow: 'S',
         },
         ru: {
-            toLow: 'ы',
-            toUp: 'Ы',
-            toCap: 'Ы',
+            toLow: 'Ы',
         }
     },
-    "d": {
+    "KeyD": {
         en: {
-            toLow: 'd',
-            toUp: 'D',
-            toCap: 'D',
+            toLow: 'D',
         },
         ru: {
-            toLow: 'в',
-            toUp: 'В',
-            toCap: 'В',
+            toLow: 'В',
         }
     },
-    "f": {
+    "KeyF": {
         en: {
-            toLow: 'f',
-            toUp: 'F',
-            toCap: 'F',
+            toLow: 'F',
         },
         ru: {
-            toLow: 'а',
-            toUp: 'А',
-            toCap: 'А',
+            toLow: 'А',
         }
     },
-    "g": {
+    "KeyG": {
         en: {
-            toLow: 'g',
-            toUp: 'G',
-            toCap: 'G',
+            toLow: 'G',
         },
         ru: {
-            toLow: 'п',
-            toUp: 'П',
-            toCap: 'П',
+            toLow: 'П',
         }
     },
-    "h": {
+    "KeyH": {
         en: {
-            toLow: 'h',
-            toUp: 'H',
-            toCap: 'H',
+            toLow: 'H',
         },
         ru: {
-            toLow: 'р',
-            toUp: 'Р',
-            toCap: 'Р',
+            toLow: 'Р',
         }
     },
-    "j": {
+    "KeyJ": {
         en: {
-            toLow: 'j',
-            toUp: 'J',
-            toCap: 'J',
+            toLow: 'J',
         },
         ru: {
-            toLow: 'о',
-            toUp: 'О',
-            toCap: 'О',
+            toLow: 'О',
         }
     },
-    "k": {
+    "KeyK": {
         en: {
-            toLow: 'k',
-            toUp: 'K',
-            toCap: 'K',
+            toLow: 'K',
         },
         ru: {
-            toLow: 'л',
-            toUp: 'Л',
-            toCap: 'Л',
+            toLow: 'Л',
         }
     },
-    "l": {
+    "KeyL": {
         en: {
-            toLow: 'l',
-            toUp: 'L',
-            toCap: 'L',
+            toLow: 'L',
         },
         ru: {
-            toLow: 'д',
-            toUp: 'Д',
-            toCap: 'Д',
+            toLow: 'Д',
         }
     },
-    "colon": {
+    "Semicolon": {
         en: {
             toLow: ';',
-            toUp: ':',
-            toCap: ';',
         },
         ru: {
-            toLow: 'ж',
-            toUp: 'Ж',
-            toCap: 'Ж',
+            toLow: 'Ж',
         }
     },
-    "quote": {
+    "Quote": {
         en: {
             toLow: "'",
-            toUp: '"',
-            toCap: "'",
         },
         ru: {
-            toLow: 'э',
-            toUp: 'Э',
-            toCap: 'Э',
+            toLow: 'Э',
         }
     },
-    "enter": {
+    "Enter": {
         en: {
             toLow: "Enter",
-            toUp: 'Enter',
-            toCap: "Enter",
         },
         ru: {
-            toLow: 'Enter',
-            toUp: 'Enter',
-            toCap: 'Enter',
-        }
+            toLow: "Enter",
+        },
     },
-    "shift": {
+    "ShiftLeft": {
         en: {
             toLow: "Shift",
-            toUp: 'Shift',
-            toCap: "Shift",
         },
         ru: {
-            toLow: 'Shift',
-            toUp: 'Shift',
-            toCap: 'Shift',
-        }
+            toLow: "Shift",
+        },
     },
-    "z": {
+    "KeyZ": {
         en: {
-            toLow: 'z',
-            toUp: 'Z',
-            toCap: 'Z',
+            toLow: 'Z',
         },
         ru: {
-            toLow: 'я',
-            toUp: 'Я',
-            toCap: 'Я',
+            toLow: 'Я',
         }
     },
-    "x": {
+    "KeyX": {
         en: {
-            toLow: 'x',
-            toUp: 'X',
-            toCap: 'X',
+            toLow: 'X',
         },
         ru: {
-            toLow: 'ч',
-            toUp: 'Ч',
-            toCap: 'Ч',
+            toLow: 'Ч',
         }
     },
-    "c": {
+    "KeyC": {
         en: {
-            toLow: 'c',
-            toUp: 'C',
-            toCap: 'C',
+            toLow: 'C',
         },
         ru: {
-            toLow: 'с',
-            toUp: 'С',
-            toCap: 'С',
+            toLow: 'С',
         }
     },
-    "v": {
+    "KeyV": {
         en: {
-            toLow: 'v',
-            toUp: 'V',
-            toCap: 'V',
+            toLow: 'V',
         },
         ru: {
-            toLow: 'м',
-            toUp: 'М',
-            toCap: 'М',
+            toLow: 'М',
         }
     },
-    "b": {
+    "KeyB": {
         en: {
-            toLow: 'b',
-            toUp: 'B',
-            toCap: 'B',
+            toLow: 'B',
         },
         ru: {
-            toLow: 'и',
-            toUp: 'И',
-            toCap: 'И',
+            toLow: 'И',
         }
     },
-    "n": {
+    "KeyN": {
         en: {
-            toLow: 'n',
-            toUp: 'N',
-            toCap: 'N',
+            toLow: 'N',
         },
         ru: {
-            toLow: 'т',
-            toUp: 'Т',
-            toCap: 'Т',
+            toLow: 'Т',
         }
     },
-    "m": {
+    "KeyM": {
         en: {
-            toLow: 'm',
-            toUp: 'M',
-            toCap: 'M',
+            toLow: 'M',
         },
         ru: {
-            toLow: 'ь',
-            toUp: 'Ь',
-            toCap: 'Ь',
+            toLow: 'Ь',
         }
     },
-    "comma": {
+    "Comma": {
         en: {
             toLow: ',',
-            toUp: '<',
-            toCap: ',',
         },
         ru: {
-            toLow: 'б',
-            toUp: 'Б',
-            toCap: 'Б',
+            toLow: 'Б',
         }
     },
-    "dot": {
+    "Period": {
         en: {
             toLow: '.',
-            toUp: '>',
-            toCap: '.',
         },
         ru: {
-            toLow: 'ю',
-            toUp: 'Ю',
-            toCap: 'Ю',
+            toLow: 'Ю',
         }
     },
-   "question": {
+   "Slash": {
         en: {
             toLow: '/',
-            toUp: '?',
-            toCap: '/',
         },
         ru: {
             toLow: '.',
-            toUp: ',',
-            toCap: '.',
         }
     },
-   "shift2": {
+   "ShiftRight": {
         en: {
             toLow: 'Shift',
-            toUp: 'Shift',
-            toCap: 'Shift',
         },
         ru: {
             toLow: 'Shift',
-            toUp: 'Shift',
-            toCap: 'Shift',
-        }
+        },
     },
-   "ctrl": {
+   "ControlLeft": {
         en: {
-            toLow: 'Control',
-            toUp: 'Control',
-            toCap: 'Control',
+            toLow: 'Ctrl',
         },
         ru: {
-            toLow: 'Control',
-            toUp: 'Control',
-            toCap: 'Control',
-        }
+            toLow: 'Ctrl',
+        },
     },
-   "win": {
+   "MetaLeft": {
         en: {
-            toLow: 'Meta',
-            toUp: 'Meta',
-            toCap: 'Meta',
+            toLow: 'Win',
         },
         ru: {
-            toLow: 'Meta',
-            toUp: 'Meta',
-            toCap: 'Meta',
-        }
+            toLow: 'Win',
+        },
     },
-   "alt": {
+   "AltLeft": {
         en: {
             toLow: 'Alt',
-            toUp: 'Alt',
-            toCap: 'Alt',
         },
         ru: {
             toLow: 'Alt',
-            toUp: 'Alt',
-            toCap: 'Alt',
-        }
+        },
     },
-   "space": {
+   "Space": {
         en: {
             toLow: '',
-            toUp: '',
-            toCap: '',
         },
         ru: {
             toLow: '',
-            toUp: '',
-            toCap: '',
-        }
+        },
     },
-   "alt2": {
+   "AltRight": {
         en: {
             toLow: 'Alt',
-            toUp: 'Alt',
-            toCap: 'Alt',
         },
         ru: {
             toLow: 'Alt',
-            toUp: 'Alt',
-            toCap: 'Alt',
-        }
+        },
     },
-   "ctrl2": {
+   "ControlRight": {
         en: {
-            toLow: 'Control',
-            toUp: 'Control',
-            toCap: 'Control',
+            toLow: 'Ctrl',
         },
         ru: {
-            toLow: 'Control',
-            toUp: 'Control',
-            toCap: 'Control',
-        }
+            toLow: 'Ctrl',
+        },
     },
-   "left": {
+   "ArrowLeft": {
         en: {
-            toLow: 'ArrowLeft',
-            toUp: 'ArrowLeft',
-            toCap: 'ArrowLeft',
+            toLow: '',
         },
         ru: {
-            toLow: 'ArrowLeft',
-            toUp: 'ArrowLeft',
-            toCap: 'ArrowLeft',
-        }
+            toLow: '',
+        },
     },
-   "up": {
+   "ArrowUp": {
         en: {
-            toLow: 'ArrowUp',
-            toUp: 'ArrowUp',
-            toCap: 'ArrowUp',
+            toLow: '',
         },
         ru: {
-            toLow: 'ArrowUp',
-            toUp: 'ArrowUp',
-            toCap: 'ArrowUp',
-        }
+            toLow: '',
+        },
     },
-   "down": {
+   "ArrowDown": {
         en: {
-            toLow: 'ArrowDown',
-            toUp: 'ArrowDown',
-            toCap: 'ArrowDown',
+            toLow: '',
         },
         ru: {
-            toLow: 'ArrowDown',
-            toUp: 'ArrowDown',
-            toCap: 'ArrowDown',
-        }
+            toLow: '',
+        },
     },
-   "right": {
+   "ArrowRight": {
         en: {
-            toLow: 'ArrowRight',
-            toUp: 'ArrowRight',
-            toCap: 'ArrowRight',
+            toLow: '',
         },
         ru: {
-            toLow: 'ArrowRight',
-            toUp: 'ArrowRight',
-            toCap: 'ArrowRight',
-        }
+            toLow: '',
+        },
     },
 }
 
