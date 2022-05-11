@@ -34,6 +34,26 @@ textarea {
   padding: 5px;
 }
 
+textarea ::-webkit-input-placeholder {
+  font-family: "Roboto Flex", sans-serif;
+  color: #343D59;
+}
+
+textarea :-ms-input-placeholder {
+  font-family: "Roboto Flex", sans-serif;
+  color: #343D59;
+}
+
+textarea ::-ms-input-placeholder {
+  font-family: "Roboto Flex", sans-serif;
+  color: #343D59;
+}
+
+textarea ::placeholder {
+  font-family: "Roboto Flex", sans-serif;
+  color: #343D59;
+}
+
 .keyboard {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,6 +108,32 @@ textarea {
 .keyboard .space {
   width: 40%;
   padding-top: 43px;
+}
+
+.keyboard .arr-right,
+.keyboard .arr-down,
+.keyboard .arr-up,
+.keyboard .arr-left {
+  background-image: url(arrow-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 31px 0;
+}
+
+.keyboard .arr-down {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.keyboard .arr-up {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.keyboard .arr-left {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .active-key {

@@ -37,7 +37,10 @@ textarea {
     font-size: 24px;
     color: $blue;
     padding: 5px;
-    
+    ::placeholder {
+        font-family: $roboto;
+        color: #343D59;
+    }
 }
 .keyboard {
     display: flex;
@@ -80,6 +83,27 @@ textarea {
         width: 40%;
         padding-top: 43px;
     }
+    .arr-right,
+    .arr-down,
+    .arr-up,
+    .arr-left {
+        background-image: url(arrow-icon.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        padding: 31px 0;
+    }
+    .arr-down {
+        transform: rotate(90deg);
+    }
+    .arr-up {
+        transform: rotate(-90deg);
+    }
+    .arr-left {
+        transform: rotate(180deg);
+        
+    }
+    
 }
 .active-key {
     background-color: $green;
